@@ -1,0 +1,107 @@
+import { Certification } from './types'
+
+export const CERTIFICATIONS: Certification[] = [
+  {
+    name: 'Cyber Security and Privacy',
+    issuer: 'NPTEL — IIT Madras',
+    year: 'July–October 2026',
+    date: '2026-10-31',
+    category: 'Cybersecurity',
+    level: 'Elite',
+    link: '/assets/certificates/nptel-cyber-security-privacy.pdf',
+    details: ['Score: 60%', 'Assignment: 24.38/25', 'Proctored Exam: 35.25/75', 'Roll No: NPTEL26CS144S1152101194', 'Credits recommended: 4'],
+  },
+  {
+    name: 'Ethical Hacking',
+    issuer: 'NPTEL — IIT Kharagpur',
+    year: 'July–October 2026',
+    date: '2026-10-31',
+    category: 'Cybersecurity',
+    level: 'Elite',
+    link: '/assets/certificates/nptel-ethical-hacking.pdf',
+    details: ['Score: 58%', 'Assignment: 24.53/25', 'Proctored Exam: 33/75', 'Roll No: NPTEL26CS157S852107363', 'Credits recommended: 4'],
+  },
+  {
+    name: 'Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate',
+    issuer: 'Oracle University',
+    year: 'October 20, 2025',
+    date: '2025-10-20',
+    category: 'AI / ML',
+    level: 'Oracle Certified Foundations Associate',
+    link: '/assets/certificates/oracle-ai-foundations.png',
+    details: ['Certificate ID: 32316278MOC25AICFA'],
+  },
+  {
+    name: 'AI Foundations',
+    issuer: 'OpenAI Academy',
+    year: 'August 6, 2026',
+    date: '2026-08-06',
+    category: 'AI / ML',
+    level: 'Course Completion Certificate',
+    link: '/assets/certificates/openai-ai-foundations.pdf',
+    verifyUrl: 'https://academy.openai.com/public/certificate/3odw997bis',
+    details: ['Certificate ID: 3odw997bis'],
+  },
+  {
+    name: 'Claude 101',
+    issuer: 'Anthropic',
+    year: '2026',
+    category: 'AI / ML',
+    level: 'Certificate of Completion',
+    link: '/assets/certificates/anthropic-claude-101.pdf',
+  },
+  {
+    name: 'Build Your Own Static Website',
+    issuer: 'NxtWave',
+    year: 'August 25, 2026',
+    date: '2026-08-25',
+    category: 'Web Development',
+    level: 'Certificate of Achievement',
+    link: '/assets/certificates/nxtwave-static-website.png',
+    technologies: ['HTML', 'CSS', 'Bootstrap'],
+  },
+  {
+    name: 'Build Your Own Responsive Website',
+    issuer: 'NxtWave',
+    year: 'September 9, 2026',
+    date: '2026-09-09',
+    category: 'Web Development',
+    level: 'Certificate of Achievement',
+    link: '/assets/certificates/nxtwave-responsive-website.png',
+    technologies: ['Bootstrap', 'Flexbox'],
+  },
+  {
+    name: 'Java Programming Workshop',
+    issuer: 'Mevi Technologies',
+    year: '2026',
+    date: '2026-01-01',
+    category: 'Programming',
+    level: 'Workshop Completion',
+  },
+]
+
+export const BADGES = [
+  {
+    name: 'Artificial Intelligence Fundamentals',
+    issuer: 'IBM SkillsBuild',
+    issued: 'October 20, 2026',
+    date: '2026-10-20',
+    category: 'Professional Badges',
+  },
+  {
+    name: 'Getting Started with Artificial Intelligence',
+    issuer: 'IBM SkillsBuild',
+    issued: 'October 19, 2026',
+    date: '2026-10-19',
+    category: 'Professional Badges',
+  },
+]
+
+export const CERT_CATEGORIES = [
+  { id: 'all', label: 'All' },
+  { id: 'ai-ml', label: 'AI / ML' },
+  { id: 'cybersecurity', label: 'Cybersecurity' },
+  { id: 'programming', label: 'Programming' },
+  { id: 'web-development', label: 'Web Development' },
+  { id: 'professional-badges', label: 'Professional Badges' },
+]
