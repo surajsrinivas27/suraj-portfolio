@@ -2,11 +2,10 @@
 
 import { motion } from 'framer-motion'
 import { PERSONAL, SOCIAL_LINKS, RESUME_LABEL } from '@/lib/social'
-import { Section, SectionHeader, Reveal } from '@/components/ui'
+import { Section, Reveal } from '@/components/ui'
 import { Card } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
-import { cn } from '@/lib/utils'
 
 export function Contact() {
   return (
